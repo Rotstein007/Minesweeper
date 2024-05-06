@@ -2,16 +2,20 @@ package oop.minesweeper;
 
 public class Game {
 
-    void startGame (boolean Irgendwas) {
+    public static void startGame (boolean[][] mienen) {
 
     }
 
-    MoveResult move (int zeile, int spalte) {
-
+    //MoveResult wird als Zug aufgerufen. 1 Aufruf 1 Zug
+    public static MoveResult move (int zeile, int spalte) {
+        return null;
     }
 
-    int[][] getBoard () {
+    public static int[][] getBoard () {
+        for (a : int[][]) {
 
+        }
+        return null;
     }
 
 }
